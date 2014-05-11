@@ -1,0 +1,1 @@
+A test program which shows speed of FlxSprite creation in HaxeFlixel
