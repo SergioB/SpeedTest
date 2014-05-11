@@ -19,7 +19,7 @@ class CoinManager extends FlxGroup {
     }
 
     public function addCoins(howMany:Int = 3) {
-        for (i in 0 ... howMany) {
+        for (i in 1 ... howMany + 1) {
             new FlxTimer(i * 0.2, addOneCoin, 1);
         }
         howManyCoins += howMany;
